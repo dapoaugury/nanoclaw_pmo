@@ -1,2 +1,15 @@
-# Examples and test files
-RUN_AND_TEST_GUIDE.md
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+engine_core/dist/
+
+# Test files (if they follow a pattern that should be ignored generally)
+*.test.js
+*.test.ts
+*.test.py
+
+# Package lock files
+package-lock.json
+```
