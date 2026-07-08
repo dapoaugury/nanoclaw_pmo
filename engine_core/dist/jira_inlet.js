@@ -366,8 +366,10 @@ function csvRowToPayload(row, sourceFile) {
     const labelsRaw = row['Labels'] ?? '';
     if (!issueKey)
         return null;
-    // Parse labels (space-separated in JIRA CSV)
-    const labels = labelsRaw.trim() ? labelsRaw.trim().split(/\s+/) : [];
+    // Parse labels (space-separated or comma-separated in JIRA CSV)
+    const labels = labelsRaw.trim()
+        ? labelsRaw.trim().split(/[\s,]+/).filter(l => l.length > 0)
+        : [];
     // Build a synthetic JiraIssue for the existing inference/filtering pipeline
     const syntheticIssue = {
         id: issueId,
@@ -460,7 +462,9 @@ async function runJiraCsvIngestion(csvFilePath) {
                 status: { name: row['Status'] ?? '', statusCategory: { name: '' } },
                 priority: { name: row['Priority'] ?? '', iconUrl: '' },
                 issuetype: { name: row['Issue Type'] ?? '', iconUrl: '' },
-                labels: (row['Labels'] ?? '').trim() ? (row['Labels'] ?? '').trim().split(/\s+/) : [],
+                labels: (row['Labels'] ?? '').trim()
+                    ? (row['Labels'] ?? '').trim().split(/[\s,]+/).filter(l => l.length > 0)
+                    : [],
                 updated: row['Updated'] ?? row['Created'] ?? '',
                 created: row['Created'] ?? '',
                 assignee: row['Assignee'] ? { displayName: row['Assignee'], emailAddress: '' } : null,

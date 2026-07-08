@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-5",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a team, I'd like to commit to a set of stories to be completed in a sprint (or iteration) >> Click \"Create Sprint\" then drag the footer down to select issues for a sprint (you can't start a sprint at the moment because one is already active)",
+  "description_preview": "*Starting a Sprint*\n\nDuring the Planning Meeting the team will examine the stories at the top of the backlog and determine which they can commit to completing during the coming sprint. Based on this information the Product Owner might break down stories into smaller stories, adjust story priorities or otherwise work with the team to define the ideal sprint outcome. When the sprint is started the stories are moved into the sprint backlog.",
+  "parameters": {
+    "issue_key": "SSP-5",
+    "issue_id": "10004",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.425Z"
+}

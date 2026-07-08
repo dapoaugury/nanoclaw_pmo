@@ -1,0 +1,25 @@
+{
+  "task_id": "JIRA-SSP-11",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "FLAG_BLOCKER",
+  "summary": "Update task status by dragging and dropping from column to column >> Try dragging this task to \"Done\"",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-11",
+    "issue_id": "10010",
+    "issue_type": "Sub-task",
+    "status": "In Progress",
+    "priority": "Medium",
+    "labels": [
+      "blocker"
+    ],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:17 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.426Z"
+}

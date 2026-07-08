@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-7",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "This is a sample task. Tasks are used to break down the steps to implement a user story",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-7",
+    "issue_id": "10006",
+    "issue_type": "Sub-task",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.425Z"
+}

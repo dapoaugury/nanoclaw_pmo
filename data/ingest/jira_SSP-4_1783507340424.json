@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-4",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a team, I'd like to estimate the effort of a story in Story Points so we can understand the work remaining >> Try setting the Story Points for this story in the \"Estimate\" field",
+  "description_preview": "This story is estimated at 5 Story Points (as shown in the \"Estimate\" field at the top right of the Detail View). \n\nTry updating the Story Point estimate to 4 by clicking on the \"Estimate\" then typing.\n\n*Estimating using Story Points*\n\nBecause the traditional process of estimating tasks in weeks or days is often wildly inaccurate, many Scrum teams estimate in Story Points instead. Story Points exist merely as a way to estimate a task's difficulty compared to some other task (for example, a 10-po...",
+  "parameters": {
+    "issue_key": "SSP-4",
+    "issue_id": "10003",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.424Z"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-15",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a scrum master, I can see the progress of a sprint via the Burndown Chart >> Click \"Reports\" to view the Burndown Chart",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-15",
+    "issue_id": "10014",
+    "issue_type": "Story",
+    "status": "Done",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.427Z"
+}

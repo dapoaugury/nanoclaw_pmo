@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-14",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a user, I can find important items on the board by using the customisable \"Quick Filters\" above >> Try clicking the \"Only My Issues\" Quick Filter above",
+  "description_preview": "*Creating Quick Filters*\n\nYou can add your own Quick Filters in the board configuration (select *Board > Configure*)",
+  "parameters": {
+    "issue_key": "SSP-14",
+    "issue_id": "10013",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.427Z"
+}
