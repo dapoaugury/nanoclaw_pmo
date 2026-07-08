@@ -11,7 +11,10 @@
     "jira": "tsc && node dist/jira_inlet.js",
     "jira:csv": "tsc && node dist/jira_inlet.js --csv",
     "jira:csv:file": "tsc && node dist/jira_inlet.js --csv --csv-path",
-    "jira:watch": "tsc && node -e \"const {runJiraIngestion}=require('./dist/jira_inlet');setInterval(()=>runJiraIngestion().then(r=>console.log(r)),600000);runJiraIngestion()\""
+    "jira:watch": "tsc && node -e \"const {runJiraIngestion}=require('./dist/jira_inlet');setInterval(()=>runJiraIngestion().then(r=>console.log(r)),600000);runJiraIngestion()\"",
+    "test": "npm run test:core && npm run test:jira",
+    "test:core": "tsc && node dist/index.test.js",
+    "test:jira": "tsc && node dist/jira_inlet.test.js"
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0"
