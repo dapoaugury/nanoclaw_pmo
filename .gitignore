@@ -1,7 +1,7 @@
 ```
-# Dependencies
-node_modules/
+# Data ingestion temporary files
+data/ingest/
 
-# Package lock files
-package-lock.json
+# State files that might contain runtime data
+data/state/
 ```

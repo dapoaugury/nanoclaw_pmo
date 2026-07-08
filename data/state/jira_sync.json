@@ -22,9 +22,19 @@
     "SSP-20",
     "SSP-21",
     "SSP-22",
-    "SSP-23"
+    "SSP-23",
+    "ADD-001",
+    "ADD-002",
+    "ADD-003",
+    "ADD-004",
+    "ADD-005",
+    "ADD-006",
+    "ADD-007",
+    "ADD-008",
+    "ADD-009",
+    "ADD-010"
   ],
-  "lastSyncTime": "2026-06-26T10:21:26.425Z",
-  "lastRunTimestamp": "2026-06-26T10:21:26.426Z",
+  "lastSyncTime": "2026-07-08T10:42:55.622Z",
+  "lastRunTimestamp": "2026-07-08T10:42:55.622Z",
   "queryLastRun": {}
 }

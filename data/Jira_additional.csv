@@ -1,0 +1,11 @@
+Issue key,Issue id,Issue Type,Status,Summary,Labels,Priority,Description,Project key,Project name,Created,Updated,Assignee,Reporter
+ADD-001,20001,Story,Open,Critical Production Outage,"blocker,production,outage",Critical,Database connection pool exhausted causing 503 errors. Immediate restart required.,PROD,Production,2024-01-15,2024-01-15,ops-team,system-alert
+ADD-002,20002,Task,In Progress,Budget Overrun Alert,"budget,finance,approval",High,Q1 Marketing spend exceeded cap by 15%. Requires executive approval for continuation.,FIN,Finance,2024-01-16,2024-01-17,cfo,finance-bot
+ADD-003,20003,Bug,To Do,Security Patch Deployment,"security,patch,maintenance",High,Apply critical CVE-2024-1234 patch to all web servers. Downtime expected: 5 mins.,INFRA,Infrastructure,2024-01-18,2024-01-18,sec-ops,auto-scanner
+ADD-004,20004,Story,Open,Minor UI Text Fix,"ui,cosmetic,frontend",Low,Change Submit button color to brand blue #0055AA.,UI,Frontend,2024-01-19,2024-01-19,design-team,product-mgr
+ADD-005,20005,Task,Open,Data Migration Task,"migration,data,backend",Medium,Migrate user sessions from Redis Cluster A to B. No data loss expected.,DB,Database,2024-01-20,2024-01-20,dba-team,architect
+ADD-006,20006,Epic,Open,Compliance Audit Request,"compliance,audit,legal",High,Generate Q4 transaction logs for external audit. Must include all metadata.,LEGAL,Legal,2024-01-21,2024-01-21,legal-team,compliance-bot
+ADD-007,20007,Story,In Progress,Feature Flag Rollout,"feature-flag,experiment",Medium,Enable new-checkout-flow for 10% of users. Monitor error rates closely.,CHK,Checkout,2024-01-22,2024-01-23,growth-team,product-lead
+ADD-008,20008,Task,Open,API Rate Limit Increase,"api,partner,config",Medium,Increase rate limit for Partner X from 1000 to 5000 req/min.,API,API-Gateway,2024-01-23,2024-01-23,platform-team,partner-success
+ADD-009,20009,Bug,Open,Emergency Hotfix,"hotfix,revert,payment",Critical,Revert commit abc123 due to memory leak in payment processor.,PAY,Payments,2024-01-24,2024-01-24,backend-lead,monitoring-sys
+ADD-010,20010,Epic,To Do,Quarterly Milestone Review,"milestone,management,planning",Medium,Complete review of Q1 OKRs and prepare presentation for board.,EXEC,Executive,2024-01-25,2024-01-25,ceo,chief-of-staff
