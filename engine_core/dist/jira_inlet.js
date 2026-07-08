@@ -479,7 +479,7 @@ async function runJiraCsvIngestion(csvFilePath) {
         if (!isRelevant(syntheticIssue, config)) {
             console.log(`   ❌ Skipped (not relevant): ${issueKey} - Labels: [${(row['Labels'] ?? '').trim()}], Type: ${row['Issue Type'] ?? ''}`);
             skippedCount++;
-            processedKeys.add(issueKey);
+            // Don't add to processedKeys - allow re-evaluation if filters change
             continue;
         }
         relevantCount++;

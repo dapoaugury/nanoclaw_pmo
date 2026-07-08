@@ -1,17 +1,6 @@
 {
-  "processedIssueKeys": [
-    "ADD-001",
-    "ADD-002",
-    "ADD-003",
-    "ADD-004",
-    "ADD-005",
-    "ADD-006",
-    "ADD-007",
-    "ADD-008",
-    "ADD-009",
-    "ADD-010"
-  ],
-  "lastSyncTime": "2026-07-08T11:53:42.594Z",
-  "lastRunTimestamp": "2026-07-08T11:53:42.594Z",
+  "processedIssueKeys": [],
+  "lastSyncTime": "2026-07-08T12:04:33.974Z",
+  "lastRunTimestamp": "2026-07-08T12:04:33.974Z",
   "queryLastRun": {}
 }
