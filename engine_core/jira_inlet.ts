@@ -590,6 +590,7 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
 
         // Dedup: skip already-processed issues
         if (processedKeys.has(issueKey)) {
+            console.log(`   ⏭️  Skipped (already processed): ${issueKey}`);
             skippedCount++;
             continue;
         }
@@ -626,6 +627,7 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
 
         // Relevance filter
         if (!isRelevant(syntheticIssue, config)) {
+            console.log(`   ❌ Skipped (not relevant): ${issueKey} - Labels: [${(row['Labels'] ?? '').trim()}], Type: ${row['Issue Type'] ?? ''}`);
             skippedCount++;
             processedKeys.add(issueKey);
             continue;
