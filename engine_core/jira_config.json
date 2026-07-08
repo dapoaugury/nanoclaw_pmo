@@ -1,0 +1,45 @@
+{
+  "jira": {
+    "base_url": "https://remaginesg.atlassian.net",
+    "email": "mengchoontan@gmail.com",
+    "api_token": "ATATT3xFfGF0YHdiL4nd2xKNzQYCBpZKolGM4nQ1RCUoWBFxNziTCh9YZiK_k9okVDSXmIV5Hjhz3ombKDZjYIoV_rWzsyMtOU1qaNIQb96oAYodyTc85Cd1oU1FIPr2R7Hks6tyi6mnpB81p66Z9lvuXsvlwtyWX-UAFmlywjuQHdMTUbG7Xqs=D705311F"
+  },
+  "polling": {
+    "interval_ms": 600000,
+    "max_results_per_query": 50,
+    "updated_since_hours": 48
+  },
+  "queries": [
+    {
+      "name": "recent_updates",
+      "jql": "updated >= -48h ORDER BY updated DESC",
+      "description": "All issues updated in the last 48 hours"
+    },
+    {
+      "name": "high_priority_backlog",
+      "jql": "priority in (Highest, High) AND status != Done ORDER BY priority DESC",
+      "description": "High-priority items not yet completed"
+    },
+    {
+      "name": "blockers_and_risks",
+      "jql": "labels in (blocker, risk, escalate) OR issueType in (Bug, Incident) AND status not in (Done, Closed)",
+      "description": "Issues tagged as blockers, risks, or incidents"
+    }
+  ],
+  "filters": {
+    "project_keys": [],
+    "labels_include": [
+      "budget", "approval", "risk", "blocker", "milestone",
+      "escalation", "dependency", "critical-path", "PMO"
+    ],
+    "labels_exclude": [
+      "documentation-only", "cosmetic"
+    ],
+    "issue_types_include": [
+      "Task", "Story", "Epic", "Bug", "Incident", "Sub-task"
+    ],
+    "statuses_trigger_gate": [
+      "Blocked", "In Review", "Done"
+    ]
+  }
+}

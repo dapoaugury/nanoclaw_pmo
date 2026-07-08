@@ -1,0 +1,367 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (${field_Story_Points}),Custom field (Actual end),Custom field (Actual start),Custom field (Approvals),Custom field (Atlassian Project),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Sentiment),Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field (Vulnerability),Custom field (Work item created forms),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+"As an Agile team, I'd like to learn about Scrum >> Click the ""SSP-1"" link at the left of this row to see detail in the Description tab on the right",SSP-1,10000,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,Version 2.0,,0,,"*About Scrum*
+
+Scrum is an iterative approach to Agile software development. The methodology has been around since the 1980s but was popularised by Jeff Sutherland and Ken Schwaber. 
+
+Scrum breaks the development of a product down in to discrete iterations (termed Sprints) that each deliver functionality that could potentially be shipped to users.
+
+The Scrum Alliance offers an excellent [introduction to Scrum|http://www.scrumalliance.org/resources/47] that provides an overview of key Scrum concepts, stakeholders, processes and artefacts.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,2.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00053:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a product owner, I'd like to express work in terms of actual user problems, aka User Stories, and place them in the backlog >> Try creating a new story with the ""+ Create Issue"" button (top right of screen)",SSP-2,10001,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,Version 2.0,,0,,"When you click ""+ Create Issue"" you will be asked for the correct project (select ""Sample Scrum Project"") and Issue Type (select ""Story"").
+
+*About User Stories*
+
+The Scrum methodology drops traditional software requirement statements in favour of real world problems expressed as User Stories. Stories describe the task a particular user is trying to achieve and its value. They are typically of the form ""As a (role) I want (something) so that (benefit)"". This approach focuses the team on the core user need rather than on implementation details. 
+
+Stories are ""placeholders for a conversation"" -- they do not need to be especially detailed since it is expected that the team will work together to resolve ambiguity as the story is developed. 
+
+Stories to be implemented in the future are stored in the Product Backlog. The backlog is ranked by the Product Owner so that the next items to be completed are at the top.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,2.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0005b:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story",SSP-3,10002,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,Version 3.0,,0,,"*About the Product Backlog*
+
+The backlog is the source of truth for the order of work to be completed. It is expected that the Product Owner will work with the team to make sure that the backlog represents the current approach to delivering the product. JIRA Software makes it easy to prioritise (rank) Stories by dragging them up and down the backlog.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,5.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0005j:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a team, I'd like to estimate the effort of a story in Story Points so we can understand the work remaining >> Try setting the Story Points for this story in the ""Estimate"" field",SSP-4,10003,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,Version 3.0,,0,,"This story is estimated at 5 Story Points (as shown in the ""Estimate"" field at the top right of the Detail View). 
+
+Try updating the Story Point estimate to 4 by clicking on the ""Estimate"" then typing.
+
+*Estimating using Story Points*
+
+Because the traditional process of estimating tasks in weeks or days is often wildly inaccurate, many Scrum teams estimate in Story Points instead. Story Points exist merely as a way to estimate a task's difficulty compared to some other task (for example, a 10-point story would probably take double the effort of a 5-point story). As teams mature with Scrum they tend to achieve a consistent number of Story Points from Sprint to Sprint -- this is termed the team's _velocity_. This allows the Product Owner to use the velocity to predict how many Sprints it will take to deliver parts of the backlog. 
+
+Many teams use Planning Poker to achieve consensus on Story Point estimates.
+
+*Using Other Estimation Units*
+
+You can configure JIRA Software to use time-based estimates if you wish. In the configuration for the board, on the ""Estimation"" tab, select ""Original Time Estimate"" as your Estimation Statistic. If you also wish to track the time used during the Sprint, select ""Remaining Estimate and Time Spent"" to enable Time Tracking in JIRA Software.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,5.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0005r:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a team, I'd like to commit to a set of stories to be completed in a sprint (or iteration) >> Click ""Create Sprint"" then drag the footer down to select issues for a sprint (you can't start a sprint at the moment because one is already active)",SSP-5,10004,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,,,0,,"*Starting a Sprint*
+
+During the Planning Meeting the team will examine the stories at the top of the backlog and determine which they can commit to completing during the coming sprint. Based on this information the Product Owner might break down stories into smaller stories, adjust story priorities or otherwise work with the team to define the ideal sprint outcome. When the sprint is started the stories are moved into the sprint backlog.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,1.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0005z:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a scrum master, I'd like to break stories down into tasks we can track during the sprint >> Try creating a task by clicking the Sub-Tasks tab in the Detail View on the right",SSP-6,10005,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,,,0,,"*Task Breakdown*
+
+Many teams choose to break down user stories into a set of tasks needed to implement the story. They then update the status of these tasks during a sprint to track progress. The completion of the last task signals the end of the story. 
+
+You can add sub-tasks to a story on the sub-task tab (folder icon) above.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,1.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00067:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+This is a sample task. Tasks are used to break down the steps to implement a user story,SSP-7,10006,Sub-task,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0001b:,,,,,,,,,,,,,,,,,,12/Jun/26 5:07 PM;63e48f5d010d35637975ddc5;Hello,,,10005,SSP-6,"As a scrum master, I'd like to break stories down into tasks we can track during the sprint >> Try creating a task by clicking the Sub-Tasks tab in the Detail View on the right",To Do,12/Jun/26 5:07 PM
+"As a product owner, I'd like to include bugs, tasks and other issue types in my backlog >> Bugs like this one will also appear in your backlog but they are not normally estimated",SSP-8,10007,Bug,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,Version 2.0,,0,,"*Estimation of Bugs*
+
+Scrum teams do not normally apply story point estimates to bugs because bugs are considered to be part of the ongoing work that the team must deal with (i.e the overhead). If you view the story points completed in a sprint as a measure of progress, then bugs also have no value because they do not deliver anything additional to the customer. 
+
+However, you can apply estimates to bugs if you wish by configuring the ""Story Points"" field to apply to other Issue Types (by default it only applies to Stories and Epics). Some more information on this is in the [documentation|https://confluence.atlassian.com/display/GH/Story+Point].",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0006f:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a developer, I'd like to update story status during the sprint >> Click the Active sprints link at the top right of the screen to go to the Active sprints where the current Sprint's items can be updated",SSP-9,10008,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,12/Jun/26 5:07 PM,12/Jun/26 5:07 PM,,,,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,3.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0006n:,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Jun/26 5:07 PM
+"As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",SSP-10,10009,Story,In Progress,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,05/Jun/26 7:57 AM,12/Jun/26 5:07 PM,12/Jun/26 5:11 PM,,Version 2.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,5.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0006v:,,,Sample Sprint 2,,,,,,,,,,,,,,,05/Jun/26 7:57 AM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 7 days 9 hours 10 minutes ago,,,,,,In Progress,12/Jun/26 5:07 PM
+"Update task status by dragging and dropping from column to column >> Try dragging this task to ""Done""",SSP-11,10010,Sub-task,In Progress,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,08/Jun/26 7:59 PM,12/Jun/26 5:17 PM,26/Jun/26 3:06 PM,,Version 2.0,,0,blocker,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00027:,,,Sample Sprint 2,,,,,,,,,,,,,,,08/Jun/26 7:59 PM;63e48f5d010d35637975ddc5;To Do to In Progress 3 days 21 hours 8 minutes ago,12/Jun/26 5:13 PM;63e48f5d010d35637975ddc5;[~accountid:63e48f5d010d35637975ddc5]  Blocker faced. I am do not know how to do this.,,10009,SSP-10,"As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",In Progress,12/Jun/26 5:07 PM
+"When the last task is done, the story can be automatically closed >> Drag this task to ""Done"" too",SSP-12,10011,Sub-task,In Progress,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,09/Jun/26 5:24 PM,12/Jun/26 5:07 PM,,,Version 2.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0002f:,,,Sample Sprint 2,,,,,,,,,,,,,,,09/Jun/26 5:24 PM;63e48f5d010d35637975ddc5;To Do to In Progress 2 days 23 hours 43 minutes ago,,,10009,SSP-10,"As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",In Progress,12/Jun/26 5:07 PM
+"As a developer, I can update details on an item using the Detail View >> Click the ""SSP-13"" link at the top of this card to open the detail view",SSP-13,10012,Bug,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,05/Jun/26 7:57 AM,12/Jun/26 5:24 PM,12/Jun/26 5:25 PM,,Version 2.0,,0,blocker,"*Editing using the Detail View*
+
+Many of the fields in the detail view can be inline edited by simply clicking on them. 
+
+For other fields you can open Quick Edit, select ""Edit"" from the cog drop-down.",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00073:,,,Sample Sprint 2,,,,,,,,,,,,,,,05/Jun/26 7:57 AM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 7 days 9 hours 10 minutes ago,,,,,,To Do,12/Jun/26 5:07 PM
+"As a user, I can find important items on the board by using the customisable ""Quick Filters"" above >> Try clicking the ""Only My Issues"" Quick Filter above",SSP-14,10013,Story,To Do,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,11/Jun/26 12:57 PM,12/Jun/26 5:07 PM,12/Jun/26 5:59 PM,,,,0,,"*Creating Quick Filters*
+
+You can add your own Quick Filters in the board configuration (select *Board > Configure*)",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,3.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0007b:,,,Sample Sprint 2,,,,,,,,,,,,,,,11/Jun/26 12:57 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 1 days 4 hours 10 minutes ago,,,,,,To Do,12/Jun/26 5:07 PM
+"As a scrum master, I can see the progress of a sprint via the Burndown Chart >> Click ""Reports"" to view the Burndown Chart",SSP-15,10014,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,05/Jun/26 7:57 AM,12/Jun/26 5:07 PM,,09/Jun/26 10:33 PM,,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,4.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0007j:,,,Sample Sprint 2,,,,,,,,,,,,,,3_*:*_1_*:*_208320000_*|*_10004_*:*_1_*:*_189839999_*|*_10005_*:*_1_*:*_0,09/Jun/26 10:33 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 7 days 9 hours 10 minutes ago,"09/Jun/26 10:33 PM;63e48f5d010d35637975ddc5;To Do to In Progress 5 days 4 hours 26 minutes ago
+In Progress to Done 2 days 18 hours 34 minutes ago",,,,,Done,12/Jun/26 5:07 PM
+"As a team, we can finish the sprint by clicking the cog icon next to the sprint name above the ""To Do"" column then selecting ""Complete Sprint"" >> Try closing this sprint now",SSP-16,10015,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,,,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,15/May/26 11:53 AM,12/Jun/26 5:07 PM,,06/Jun/26 2:29 PM,,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,2.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0007r:,,,Sample Sprint 1,Sample Sprint 2,,,,,,,,,,,,,3_*:*_1_*:*_92880000_*|*_10004_*:*_1_*:*_1817280000_*|*_10005_*:*_1_*:*_0,"06/Jun/26 2:29 PM;63e48f5d010d35637975ddc5;Created 28 days 5 hours 14 minutes ago
+Joined Sample Sprint 1 21 days 10 hours 20 minutes ago",06/Jun/26 2:29 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 7 days 9 hours 10 minutes ago,"06/Jun/26 2:29 PM;63e48f5d010d35637975ddc5;To Do to In Progress 7 days 4 hours 26 minutes ago
+In Progress to Done 6 days 2 hours 38 minutes ago",,,,Done,12/Jun/26 5:07 PM
+"Instructions for deleting this sample board and project are in the description for this issue >> Click the ""SSP-17"" link and read the description tab of the detail view for more",SSP-17,10016,Bug,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,05/Jun/26 7:57 AM,12/Jun/26 5:07 PM,,09/Jun/26 12:33 AM,,,0,,"*To delete this Sample Project _(must be performed by a user with Administration rights)_* 
+- Open the administration interface to the projects page by using the keyboard shortcut 'g' then 'g' and typing 'Projects' in to the search dialog
+- Select the ""Delete"" link for the ""Sample Scrum Project"" project
+
+*To delete the Sample Project workflow and workflow scheme _(must be performed by a user with Administration rights)_* 
+- Open the administration interface to the workflow schemes page by using the keyboard shortcut 'g' then 'g' and typing 'Workflow Schemes' in to the search dialog
+- Select the ""Delete"" link for the ""SSP: Software Simplified Workflow Scheme"" workflow scheme
+- Go to the workflows page by using the keyboard shortcut 'g' then 'g' and typing 'Workflows' in to the search dialog(_OnDemand users should select the second match for Workflows_)
+- Expand the ""Inactive"" section
+- Select the ""Delete"" link for the ""Software Simplified Workflow  for Project SSP"" workflow
+
+*To delete this Board _(must be performed by the owner of this Board or an Administrator)_*
+- Click the ""Tools"" cog at the top right of this board
+- Select ""Delete""",,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0007z:,,,Sample Sprint 2,,,,,,,,,,,,,,3_*:*_1_*:*_280320000_*|*_10004_*:*_1_*:*_38640000_*|*_10005_*:*_1_*:*_0,09/Jun/26 12:33 AM;63e48f5d010d35637975ddc5;Joined Sample Sprint 2 7 days 9 hours 10 minutes ago,"09/Jun/26 12:33 AM;63e48f5d010d35637975ddc5;To Do to In Progress 6 days 22 hours 26 minutes ago
+In Progress to Done 3 days 16 hours 34 minutes ago",,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-18,10017,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,23/May/26 3:17 AM,Version 2.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,3.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00087:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_73800000_*|*_10005_*:*_1_*:*_0,"23/May/26 3:17 AM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 20 days 13 hours 50 minutes ago",,,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-19,10018,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,26/May/26 3:11 AM,Version 2.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,5.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0008f:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_332640000_*|*_10005_*:*_1_*:*_0,"26/May/26 3:11 AM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 17 days 13 hours 56 minutes ago",,,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-20,10019,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,27/May/26 3:46 PM,Version 1.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,3.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0008n:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_464340000_*|*_10005_*:*_1_*:*_0,"27/May/26 3:46 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 16 days 1 hours 21 minutes ago",,,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-21,10020,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,29/May/26 10:24 PM,Version 1.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,1.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0008v:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_661020000_*|*_10005_*:*_1_*:*_0,"29/May/26 10:24 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 13 days 18 hours 43 minutes ago",,,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-22,10021,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,01/Jun/26 1:44 PM,Version 1.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,2.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i00093:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_889020000_*|*_10005_*:*_1_*:*_0,"01/Jun/26 1:44 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 11 days 3 hours 23 minutes ago",,,,,,Done,12/Jun/26 5:07 PM
+"As a user, I'd like a historical story to show in reports",SSP-23,10022,Story,Done,SSP,Sample Scrum Project,software,MC Tan,63e48f5d010d35637975ddc5,"This is a sample Scrum project for JIRA Software.
+
+
+
+Sample Sprint 1 started 21 days 10 hours 20 minutes ago ends 7 days 10 hours 20 minutes ago completed 7 days 11 hours 40 minutes ago
+
+
+
+Sample Sprint 2 started 7 days 9 hours 10 minutes ago ends 6 days 15 hours 10 minutes 
+
+
+
+",Medium,Done,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,MC Tan,63e48f5d010d35637975ddc5,22/May/26 6:47 AM,12/Jun/26 5:07 PM,,03/Jun/26 3:22 PM,Version 1.0,,0,,,,MC Tan,63e48f5d010d35637975ddc5,,,,,,,,,2.0,,,ApprovalsCFValue{approvals=[]},,,,,,,,,,,,,,,,,0|i0009b:,,,Sample Sprint 1,,,,,,,,,,,,,,10004_*:*_1_*:*_1067700000_*|*_10005_*:*_1_*:*_0,"03/Jun/26 3:22 PM;63e48f5d010d35637975ddc5;Joined Sample Sprint 1 21 days 10 hours 20 minutes ago
+To Do to Done 9 days 1 hours 45 minutes ago",,,,,,Done,12/Jun/26 5:07 PM

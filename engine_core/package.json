@@ -1,0 +1,24 @@
+{
+  "name": "nanoclaw-engine-native",
+  "version": "1.0.0",
+  "description": "Simplified native execution environment core for NanoClaw",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "email": "tsc && node dist/email_inlet.js",
+    "email:watch": "tsc && node -e \"const {runEmailIngestion}=require('./dist/email_inlet');setInterval(()=>runEmailIngestion().then(r=>console.log(r)),300000);runEmailIngestion()\"",
+    "jira": "tsc && node dist/jira_inlet.js",
+    "jira:csv": "tsc && node dist/jira_inlet.js --csv",
+    "jira:csv:file": "tsc && node dist/jira_inlet.js --csv --csv-path",
+    "jira:watch": "tsc && node -e \"const {runJiraIngestion}=require('./dist/jira_inlet');setInterval(()=>runJiraIngestion().then(r=>console.log(r)),600000);runJiraIngestion()\""
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

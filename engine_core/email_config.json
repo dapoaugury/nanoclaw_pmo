@@ -1,0 +1,23 @@
+{
+  "m365": {
+    "tenant_id": "",
+    "client_id": "",
+    "client_secret": ""
+  },
+  "polling": {
+    "interval_ms": 300000,
+    "max_messages_per_cycle": 50,
+    "age_limit_hours": 24
+  },
+  "filters": {
+    "subject_keywords": [
+      "budget", "approval", "reconciliation", "portfolio",
+      "project", "PMO", "allocation", "CAPEX", "OPEX",
+      "variance", "forecast", "baseline", "milestone"
+    ],
+    "sender_allowlist": [],
+    "sender_blocklist": [
+      "noreply@", "no-reply@", "do-not-reply@"
+    ]
+  }
+}
