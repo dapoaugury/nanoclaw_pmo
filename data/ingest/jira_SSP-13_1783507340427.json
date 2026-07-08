@@ -1,0 +1,25 @@
+{
+  "task_id": "JIRA-SSP-13",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "FLAG_BLOCKER",
+  "summary": "As a developer, I can update details on an item using the Detail View >> Click the \"SSP-13\" link at the top of this card to open the detail view",
+  "description_preview": "*Editing using the Detail View*\n\nMany of the fields in the detail view can be inline edited by simply clicking on them. \n\nFor other fields you can open Quick Edit, select \"Edit\" from the cog drop-down.",
+  "parameters": {
+    "issue_key": "SSP-13",
+    "issue_id": "10012",
+    "issue_type": "Bug",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [
+      "blocker"
+    ],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:24 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.427Z"
+}

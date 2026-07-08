@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-10",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-10",
+    "issue_id": "10009",
+    "issue_type": "Story",
+    "status": "In Progress",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.426Z"
+}

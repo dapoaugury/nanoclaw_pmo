@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-2",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a product owner, I'd like to express work in terms of actual user problems, aka User Stories, and place them in the backlog >> Try creating a new story with the \"+ Create Issue\" button (top right of screen)",
+  "description_preview": "When you click \"+ Create Issue\" you will be asked for the correct project (select \"Sample Scrum Project\") and Issue Type (select \"Story\").\n\n*About User Stories*\n\nThe Scrum methodology drops traditional software requirement statements in favour of real world problems expressed as User Stories. Stories describe the task a particular user is trying to achieve and its value. They are typically of the form \"As a (role) I want (something) so that (benefit)\". This approach focuses the team on the core ...",
+  "parameters": {
+    "issue_key": "SSP-2",
+    "issue_id": "10001",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.424Z"
+}

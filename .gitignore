@@ -1,7 +1,23 @@
 ```
-# Data ingestion temporary files
-data/ingest/
+# Build artifacts
+dist/
+build/
+*.js
+*.ts
 
-# State files that might contain runtime data
-data/state/
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
 ```

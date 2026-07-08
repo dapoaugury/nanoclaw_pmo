@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-3",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a product owner, I'd like to rank stories in the backlog so I can communicate the proposed implementation order >> Try dragging this story up above the previous story",
+  "description_preview": "*About the Product Backlog*\n\nThe backlog is the source of truth for the order of work to be completed. It is expected that the Product Owner will work with the team to make sure that the backlog represents the current approach to delivering the product. JIRA Software makes it easy to prioritise (rank) Stories by dragging them up and down the backlog.",
+  "parameters": {
+    "issue_key": "SSP-3",
+    "issue_id": "10002",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.424Z"
+}

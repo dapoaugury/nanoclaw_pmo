@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-6",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a scrum master, I'd like to break stories down into tasks we can track during the sprint >> Try creating a task by clicking the Sub-Tasks tab in the Detail View on the right",
+  "description_preview": "*Task Breakdown*\n\nMany teams choose to break down user stories into a set of tasks needed to implement the story. They then update the status of these tasks during a sprint to track progress. The completion of the last task signals the end of the story. \n\nYou can add sub-tasks to a story on the sub-task tab (folder icon) above.",
+  "parameters": {
+    "issue_key": "SSP-6",
+    "issue_id": "10005",
+    "issue_type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.425Z"
+}

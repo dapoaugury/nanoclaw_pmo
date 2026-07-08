@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-20",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "As a user, I'd like a historical story to show in reports",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-20",
+    "issue_id": "10019",
+    "issue_type": "Story",
+    "status": "Done",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.439Z"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-17",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "FLAG_VARIANCE",
+  "summary": "Instructions for deleting this sample board and project are in the description for this issue >> Click the \"SSP-17\" link and read the description tab of the detail view for more",
+  "description_preview": "*To delete this Sample Project _(must be performed by a user with Administration rights)_* \n- Open the administration interface to the projects page by using the keyboard shortcut 'g' then 'g' and typing 'Projects' in to the search dialog\n- Select the \"Delete\" link for the \"Sample Scrum Project\" project\n\n*To delete the Sample Project workflow and workflow scheme _(must be performed by a user with Administration rights)_* \n- Open the administration interface to the workflow schemes page by using ...",
+  "parameters": {
+    "issue_key": "SSP-17",
+    "issue_id": "10016",
+    "issue_type": "Bug",
+    "status": "Done",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "MC Tan",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.427Z"
+}

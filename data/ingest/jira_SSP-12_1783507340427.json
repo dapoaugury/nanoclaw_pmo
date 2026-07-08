@@ -1,0 +1,23 @@
+{
+  "task_id": "JIRA-SSP-12",
+  "origin": "JIRA_CSV:Jira.csv",
+  "source_system": "JIRA",
+  "requested_action": "PROCESS_JIRA_UPDATE",
+  "summary": "When the last task is done, the story can be automatically closed >> Drag this task to \"Done\" too",
+  "description_preview": "",
+  "parameters": {
+    "issue_key": "SSP-12",
+    "issue_id": "10011",
+    "issue_type": "Sub-task",
+    "status": "In Progress",
+    "priority": "Medium",
+    "labels": [],
+    "project": "Sample Scrum Project",
+    "assignee": "Unassigned",
+    "reporter": "MC Tan",
+    "updated": "12/Jun/26 5:07 PM",
+    "components": [],
+    "fix_versions": []
+  },
+  "timestamp": "2026-07-08T10:42:20.427Z"
+}
