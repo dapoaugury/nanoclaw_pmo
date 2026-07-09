@@ -1,1 +1,8 @@
-Nothing needs to be added to the .gitignore file based on the provided changes. The only modified file is a TypeScript source file (`engine_core/jira_inlet.ts`), which should not be ignored.
+```
+# Dependencies
+node_modules/
+
+# Compiled and build artifacts
+*.node
+build/
+```
