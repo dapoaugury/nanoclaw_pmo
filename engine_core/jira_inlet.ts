@@ -1,6 +1,17 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+// Import ALWAYS_INTERVENE_ACTIONS from the engine core
+const ALWAYS_INTERVENE_ACTIONS = new Set([
+    'EXECUTE_BUDGET_RECONCILIATION',
+    'DELETE',
+    'DROP',
+    'TRUNCATE',
+    'GRANT_ADMIN',
+    'ROTATE_KEYS',
+    'DEPLOY_PRODUCTION',
+]);
+
 const INGEST_PATH = path.resolve(__dirname, '../../data/ingest');
 const SYNC_STATE_PATH = path.resolve(__dirname, '../../data/state/jira_sync.json');
 const CONFIG_PATH = path.resolve(__dirname, './jira_config.json');
@@ -217,6 +228,7 @@ interface CsvIngestResult {
     relevant: number;
     ingested: number;
     skipped: number;
+    interventionTokens: number;
 }
 
 function inferActionFromIssue(issue: JiraIssue): string {
@@ -310,6 +322,41 @@ function writeToIngest(payload: JiraIngestPayload, issueKey: string): string {
     const filename = `jira_${safeKey}_${Date.now()}.json`;
     const filePath = path.join(INGEST_PATH, filename);
     fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), 'utf8');
+    return filename;
+}
+
+// ── Write tokens for items requiring intervention ─────────────────
+
+const TOKENS_PATH = path.resolve(__dirname, '../../data/tokens');
+
+interface InterventionToken {
+    task_id: string;
+    issue_key: string;
+    requested_action: string;
+    summary: string;
+    reason: string;
+    timestamp: string;
+    source_file: string;
+}
+
+function writeInterventionToken(payload: JiraIngestPayload, sourceFile: string): string {
+    if (!fs.existsSync(TOKENS_PATH)) fs.mkdirSync(TOKENS_PATH, { recursive: true });
+
+    const safeKey = payload.parameters.issue_key.replace(/[^a-zA-Z0-9_-]/g, '_');
+    const filename = `token_${safeKey}_${Date.now()}.json`;
+    const filePath = path.join(TOKENS_PATH, filename);
+    
+    const token: InterventionToken = {
+        task_id: payload.task_id,
+        issue_key: payload.parameters.issue_key,
+        requested_action: payload.requested_action,
+        summary: payload.summary,
+        reason: `Action '${payload.requested_action}' requires human intervention (ALWAYS_INTERVENE_ACTIONS policy)`,
+        timestamp: new Date().toISOString(),
+        source_file: sourceFile,
+    };
+    
+    fs.writeFileSync(filePath, JSON.stringify(token, null, 2), 'utf8');
     return filename;
 }
 
@@ -580,6 +627,7 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
     let relevantCount = 0;
     let ingestedCount = 0;
     let skippedCount = 0;
+    let interventionTokenCount = 0;
 
     for (const row of rows) {
         const issueKey = row['Issue key'] ?? '';
@@ -634,6 +682,16 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
         }
 
         relevantCount++;
+        
+        // Check if action requires human intervention
+        const requiresIntervention = ALWAYS_INTERVENE_ACTIONS.has(payload.requested_action);
+        
+        if (requiresIntervention) {
+            const tokenFilename = writeInterventionToken(payload, path.basename(filePath));
+            interventionTokenCount++;
+            console.log(`   ⚠️  INTERVENTION REQUIRED: ${issueKey} "${payload.summary}" → Action: ${payload.requested_action} → Token: ${tokenFilename}`);
+        }
+        
         const filename = writeToIngest(payload, issueKey);
         processedKeys.add(issueKey);
         ingestedCount++;
@@ -647,7 +705,7 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
     syncState.lastRunTimestamp = new Date().toISOString();
     saveSyncState(syncState);
 
-    console.log(`\n   Summary: ${rows.length} rows, ${relevantCount} relevant, ${ingestedCount} ingested, ${skippedCount} skipped`);
+    console.log(`\n   Summary: ${rows.length} rows, ${relevantCount} relevant, ${ingestedCount} ingested, ${skippedCount} skipped, ${interventionTokenCount} intervention tokens`);
 
     return {
         sourceFile: filePath,
@@ -655,6 +713,7 @@ export async function runJiraCsvIngestion(csvFilePath?: string): Promise<CsvInge
         relevant: relevantCount,
         ingested: ingestedCount,
         skipped: skippedCount,
+        interventionTokens: interventionTokenCount,
     };
 }
 
