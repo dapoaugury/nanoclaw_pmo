@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore since only a README.md file was added, which is a source/config file and not a build artifact, dependency, or temporary file.
+Nothing needs to be added to the .gitignore file based on the provided changes. The only modified file is a TypeScript source file (`engine_core/jira_inlet.ts`), which should not be ignored.
